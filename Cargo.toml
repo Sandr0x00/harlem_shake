@@ -1,0 +1,13 @@
+[package]
+name = "harlem_shake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20poly1305 = "0.10.1"
+image = { version = "0.25.2", features = ["png"] }
+rand = "0.8.5"
+x11rb = { version = "0.13.1", features = ["xfixes", "image", "randr"] }
+
+[profile.release]
+strip = "symbols"
