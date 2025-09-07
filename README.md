@@ -1,4 +1,10 @@
-# harlem_shake Writeup
+# harlem_shake
+
+This was a reversing CTF challenge for [hxp 38C3 CTF](https://2024.ctf.link/) I created.
+
+Challenge: <https://2024.ctf.link/internal/challenge/168a3050-bd0b-4053-930a-366d0fe82294/>
+
+## Writeup
 
 We'll go directly into the main method and see some setup until we arrive at a long list of function calls to `sub_942E0` with changing parameters.
 
